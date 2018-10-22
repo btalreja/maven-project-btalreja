@@ -16,8 +16,6 @@
     	<mule.tools.version>1.7</mule.tools.version>
     	<activemq.version>5.15.6</activemq.version>
     	<derby.version>10.14.2.0</derby.version>
-    	<uid>btalreja1</uid>
-        <pwd>junk</pwd> 
 	</properties>
 
 	<build>
@@ -29,8 +27,8 @@
     <configuration>
         <deploymentType>cloudhub</deploymentType>
         <muleVersion>3.9.1</muleVersion>
-        <username>${uid}</username>
-		<password>${pwd}</password> 
+        <username>username</username>
+        <password>password</password>
         <workerType>Micro</workerType>
         <redeploy>true</redeploy>
         <environment>Sandbox</environment>
