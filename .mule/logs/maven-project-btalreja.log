@@ -1346,3 +1346,259 @@ Caused by: java.lang.NullPointerException
 * 10/22/18 2:56 PM                                                   *
 * Up for: 0 days, 0 hours, 0 mins, 0.127 sec                         *
 **********************************************************************
+2018-10-22 15:09:22,506 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'maven-project-btalreja'                +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-10-22 15:09:22,902 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-10-22 15:09:23,057 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-10-22 15:09:23,204 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-10-22 15:09:23,204 [main] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.9)
+2018-10-22 15:09:23,267 [main] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@4630b7: startup date [Mon Oct 22 15:09:23 EDT 2018]; root of context hierarchy
+2018-10-22 15:09:24,631 [main] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-10-22 15:09:25,102 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2018-10-22 15:09:25,102 [main] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2018-10-22 15:09:27,492 [main] WARN  org.mule.module.ognl.expression.OgnlExpressionEvaluator - OGNL module is deprecated and will be removed in Mule 4.0. Use MEL expressions instead.
+2018-10-22 15:09:28,054 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\MuleWorkspace\.mule\.\.mule\maven-project-btalreja\queue-tx-log\tx1.log and C:\MuleWorkspace\.mule\.\.mule\maven-project-btalreja\queue-tx-log\tx2.log
+2018-10-22 15:09:28,085 [main] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\MuleWorkspace\.mule\.\.mule\maven-project-btalreja\queue-xa-tx-log\tx1.log and C:\MuleWorkspace\.mule\.\.mule\maven-project-btalreja\queue-xa-tx-log\tx2.log
+2018-10-22 15:09:28,085 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising connector: Active_MQ
+2018-10-22 15:09:28,364 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-10-22 15:09:28,368 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: mavenFlow
+2018-10-22 15:09:28,368 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1bb8c16
+2018-10-22 15:09:28,428 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: mavenFlow.stage1
+2018-10-22 15:09:28,443 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: retrieveFlights
+2018-10-22 15:09:28,443 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@108b66a
+2018-10-22 15:09:28,443 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: retrieveFlights.stage1
+2018-10-22 15:09:28,443 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: logFlights
+2018-10-22 15:09:28,443 [main] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@f15ae9
+2018-10-22 15:09:28,443 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: logFlights.stage1
+2018-10-22 15:09:28,818 [main] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\MuleWorkspace\.mule\apps\maven-project-btalreja\maven-project-btalreja.xml'}]"
+2018-10-22 15:09:28,818 [main] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\MuleWorkspace\.mule\apps\maven-project-btalreja\maven-project-btalreja.xml'}]"
+2018-10-22 15:09:28,834 [main] INFO  com.mulesoft.module.policies.lifecyle.GateKeeper - GateKeeper Mode: DISABLED
+2018-10-22 15:09:28,834 [main] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'maven-project-btalreja'                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-10-22 15:09:28,834 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-10-22 15:09:28,834 [main] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-10-22 15:09:28,898 [main] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8082
+2018-10-22 15:09:29,852 [main] WARN  org.apache.activemq.broker.BrokerService - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 247 mb - resetting to 70% of maximum available: 173 mb
+2018-10-22 15:09:30,914 [main] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Connected: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=650a6c
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2018-10-22 15:09:30,914 [main] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Starting: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=650a6c
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2018-10-22 15:09:30,916 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting connector: Active_MQ
+2018-10-22 15:09:30,917 [main] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-10-22 15:09:30,917 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2018-10-22 15:09:30,917 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: mavenFlow
+2018-10-22 15:09:30,917 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: mavenFlow.stage1
+2018-10-22 15:09:30,933 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: retrieveFlights
+2018-10-22 15:09:30,933 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: retrieveFlights.stage1
+2018-10-22 15:09:30,933 [main] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: logFlights
+2018-10-22 15:09:30,933 [main] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: logFlights.stage1
+2018-10-22 15:09:31,000 [main] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Registering listener: logFlights on endpointUri: jms://derby.flights
+2018-10-22 15:09:31,046 [main] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default inbound transformer: org.mule.transport.jms.transformers.JMSMessageToObject
+2018-10-22 15:09:31,046 [main] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2018-10-22 15:09:31,062 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2018-10-22 15:09:31,062 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Connecting clusterizable message receiver
+2018-10-22 15:09:31,171 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Endpoint jms://derby.flights has been successfully reconnected.
+2018-10-22 15:09:31,171 [main] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2018-10-22 15:09:31,171 [main] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Starting clusterizable message receiver
+2018-10-22 15:09:31,187 [main] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2018-10-22 15:09:31,234 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Attempting to register service with name: Mule.maven-project-btalreja:type=Endpoint,service="logFlights",connector=Active_MQ,name="endpoint.jms.derby.flights"
+2018-10-22 15:09:31,234 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Endpoint Service with name: Mule.maven-project-btalreja:type=Endpoint,service="logFlights",connector=Active_MQ,name="endpoint.jms.derby.flights"
+2018-10-22 15:09:31,234 [main] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Connector Service with name Mule.maven-project-btalreja:type=Connector,name="Active_MQ"
+2018-10-22 15:09:31,234 [main] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: maven-project-btalreja                                *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   Batch module default engine                                      *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2018-10-22 15:09:43,882 [[maven-project-btalreja].HTTP_Listener_Configuration.worker.01] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default outbound transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2018-10-22 15:09:43,882 [[maven-project-btalreja].HTTP_Listener_Configuration.worker.01] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2018-10-22 15:09:43,896 [[maven-project-btalreja].HTTP_Listener_Configuration.worker.01] WARN  com.mulesoft.mule.transport.jms.EeJmsMessageDispatcher - Starting patched JmsMessageReceiver
+2018-10-22 15:09:43,896 [[maven-project-btalreja].HTTP_Listener_Configuration.worker.01] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'Active_MQ.dispatcher.22203242'. Object is: EeJmsMessageDispatcher
+2018-10-22 15:09:43,896 [[maven-project-btalreja].HTTP_Listener_Configuration.worker.01] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'Active_MQ.dispatcher.22203242'. Object is: EeJmsMessageDispatcher
+2018-10-22 15:09:43,991 [[maven-project-btalreja].logFlights.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - [{DESTINATION=SFO, PRICE=555, ORIGIN=YYZ, ID=0}, {DESTINATION=LAX, PRICE=450, ORIGIN=YYZ, ID=1}, {DESTINATION=SEA, PRICE=777, ORIGIN=SQL, ID=2}, {DESTINATION=SFO, PRICE=999, ORIGIN=SQL, ID=3}]
+2018-10-22 15:23:53,808 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Stopping app 'maven-project-btalreja'                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-10-22 15:23:53,808 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: mavenFlow
+2018-10-22 15:23:53,808 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: mavenFlow.stage1
+2018-10-22 15:23:53,943 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: retrieveFlights
+2018-10-22 15:23:53,943 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: retrieveFlights.stage1
+2018-10-22 15:23:54,151 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Stopping flow: logFlights
+2018-10-22 15:23:54,151 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Removing listener on endpointUri: jms://derby.flights
+2018-10-22 15:23:54,151 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2018-10-22 15:23:54,151 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2018-10-22 15:23:54,151 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Stopping service: logFlights.stage1
+2018-10-22 15:23:54,352 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping model: _muleSystemModel
+2018-10-22 15:23:54,360 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping connector: Active_MQ
+2018-10-22 15:23:54,364 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Stopping: 'Active_MQ.dispatcher.22203242'. Object is: EeJmsMessageDispatcher
+2018-10-22 15:23:54,364 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing: 'Active_MQ.dispatcher.22203242'. Object is: EeJmsMessageDispatcher
+2018-10-22 15:23:54,372 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Stopped listener on http://0.0.0.0:8082
+2018-10-22 15:23:54,372 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopping ResourceManager
+2018-10-22 15:23:54,372 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Stopped ResourceManager
+2018-10-22 15:23:54,377 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Disposing app 'maven-project-btalreja'                   +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-10-22 15:23:54,377 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing RegistryBroker
+2018-10-22 15:23:54,377 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: mavenFlow
+2018-10-22 15:23:54,377 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: mavenFlow.stage1
+2018-10-22 15:23:54,377 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: retrieveFlights
+2018-10-22 15:23:54,377 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: retrieveFlights.stage1
+2018-10-22 15:23:54,377 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Disposing flow: logFlights
+2018-10-22 15:23:54,377 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Disposing service: logFlights.stage1
+2018-10-22 15:23:54,377 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing model: _muleSystemModel
+2018-10-22 15:23:54,517 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Disconnected: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=stop
+  this=650a6c
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2018-10-22 15:23:54,517 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Disposing connector: Active_MQ
+2018-10-22 15:23:54,673 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Closing org.mule.config.spring.MuleArtifactContext@4630b7: startup date [Mon Oct 22 15:09:23 EDT 2018]; root of context hierarchy
+2018-10-22 15:23:54,673 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application "maven-project-btalreja" shut down normally on:        *
+* 10/22/18 3:23 PM                                                   *
+* Up for: 0 days, 0 hours, 14 mins, 25.839 sec                       *
+**********************************************************************
+2018-10-22 15:23:54,814 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Initializing app 'maven-project-btalreja'                +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-10-22 15:23:54,823 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising RegistryBroker
+2018-10-22 15:23:54,839 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Starting discovery of extensions
+2018-10-22 15:23:54,851 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Discovered 1 extensions
+2018-10-22 15:23:54,851 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.extension.internal.manager.DefaultExtensionManager - Registering extension validation (version 3.9)
+2018-10-22 15:23:54,859 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.MuleArtifactContext - Refreshing org.mule.config.spring.MuleArtifactContext@144f092: startup date [Mon Oct 22 15:23:54 EDT 2018]; root of context hierarchy
+2018-10-22 15:23:55,161 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.processors.NoDevkitInjectorProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-10-22 15:23:55,192 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2018-10-22 15:23:55,192 [Mule.app.deployer.monitor.1.thread.1] WARN  org.mule.expression.DefaultExpressionManager - Expression string is not an expression.  Use isExpression(String) to validate first
+2018-10-22 15:23:57,348 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\MuleWorkspace\.mule\.\.mule\maven-project-btalreja\queue-tx-log\tx1.log and C:\MuleWorkspace\.mule\.\.mule\maven-project-btalreja\queue-tx-log\tx2.log
+2018-10-22 15:23:57,352 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.journal.TransactionJournal - Using files for tx logs C:\MuleWorkspace\.mule\.\.mule\maven-project-btalreja\queue-xa-tx-log\tx1.log and C:\MuleWorkspace\.mule\.\.mule\maven-project-btalreja\queue-xa-tx-log\tx2.log
+2018-10-22 15:23:57,356 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising connector: Active_MQ
+2018-10-22 15:23:57,392 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising model: _muleSystemModel
+2018-10-22 15:23:57,392 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: mavenFlow
+2018-10-22 15:23:57,392 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@1c1a03f
+2018-10-22 15:23:57,392 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: mavenFlow.stage1
+2018-10-22 15:23:57,392 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: retrieveFlights
+2018-10-22 15:23:57,392 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@18586f4
+2018-10-22 15:23:57,407 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: retrieveFlights.stage1
+2018-10-22 15:23:57,407 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Initialising flow: logFlights
+2018-10-22 15:23:57,407 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.exception.DefaultMessagingExceptionStrategy - Initialising exception listener: org.mule.exception.DefaultMessagingExceptionStrategy@c6d5b2
+2018-10-22 15:23:57,407 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Initialising service: logFlights.stage1
+2018-10-22 15:23:57,439 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.spring.SpringXmlConfigurationBuilder - Configured Mule using "org.mule.config.spring.SpringXmlConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\MuleWorkspace\.mule\apps\maven-project-btalreja\maven-project-btalreja.xml'}]"
+2018-10-22 15:23:57,439 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.config.builders.AutoConfigurationBuilder - Configured Mule using "org.mule.config.builders.AutoConfigurationBuilder" with configuration resource(s): "[ConfigResource{resourceName='C:\MuleWorkspace\.mule\apps\maven-project-btalreja\maven-project-btalreja.xml'}]"
+2018-10-22 15:23:57,439 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.launcher.application.DefaultMuleApplication - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Starting app 'maven-project-btalreja'                    +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-10-22 15:23:57,439 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Starting ResourceManager
+2018-10-22 15:23:57,439 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.util.queue.QueueXaResourceManager - Started ResourceManager
+2018-10-22 15:23:57,485 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.http.internal.listener.DefaultHttpListenerConfig - Listening for requests on http://0.0.0.0:8082
+2018-10-22 15:23:57,861 [Mule.app.deployer.monitor.1.thread.1] WARN  org.apache.activemq.broker.BrokerService - Memory Usage for the Broker (1024mb) is more than the maximum available for the JVM: 247 mb - resetting to 70% of maximum available: 173 mb
+2018-10-22 15:23:58,681 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Connected: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=aca950
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2018-10-22 15:23:58,681 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Starting: ActiveMQJmsConnector
+{
+  name=Active_MQ
+  lifecycle=initialise
+  this=aca950
+  numberOfConcurrentTransactedReceivers=4
+  createMultipleTransactedReceivers=true
+  connected=true
+  supportedProtocols=[jms]
+  serviceOverrides=<none>
+}
+
+2018-10-22 15:23:58,681 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting connector: Active_MQ
+2018-10-22 15:23:58,691 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.modules.oauth2.provider.agents.DefaultSplashScreenAgent - 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ DevKit Extensions (0) used in this application 
+                             +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2018-10-22 15:23:58,691 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting model: _muleSystemModel
+2018-10-22 15:23:58,691 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: mavenFlow
+2018-10-22 15:23:58,691 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: mavenFlow.stage1
+2018-10-22 15:23:58,691 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: retrieveFlights
+2018-10-22 15:23:58,691 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: retrieveFlights.stage1
+2018-10-22 15:23:58,691 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.construct.FlowConstructLifecycleManager - Starting flow: logFlights
+2018-10-22 15:23:58,691 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.processor.SedaStageLifecycleManager - Starting service: logFlights.stage1
+2018-10-22 15:23:58,706 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.activemq.ActiveMQJmsConnector - Registering listener: logFlights on endpointUri: jms://derby.flights
+2018-10-22 15:23:58,706 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default inbound transformer: org.mule.transport.jms.transformers.JMSMessageToObject
+2018-10-22 15:23:58,706 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2018-10-22 15:23:58,706 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2018-10-22 15:23:58,706 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Connecting clusterizable message receiver
+2018-10-22 15:23:58,784 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Endpoint jms://derby.flights has been successfully reconnected.
+2018-10-22 15:23:58,784 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'null'. Object is: MultiConsumerJmsMessageReceiver
+2018-10-22 15:23:58,784 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.transport.jms.MultiConsumerJmsMessageReceiver - Starting clusterizable message receiver
+2018-10-22 15:23:58,784 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.WrapperManagerAgent - This JVM hasn't been launched by the wrapper, the agent will not run.
+2018-10-22 15:23:58,800 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.AbstractJmxAgent - Attempting to register service with name: Mule.maven-project-btalreja:type=Endpoint,service="logFlights",connector=Active_MQ,name="endpoint.jms.derby.flights"
+2018-10-22 15:23:58,800 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Endpoint Service with name: Mule.maven-project-btalreja:type=Endpoint,service="logFlights",connector=Active_MQ,name="endpoint.jms.derby.flights"
+2018-10-22 15:23:58,800 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.module.management.agent.AbstractJmxAgent - Registered Connector Service with name Mule.maven-project-btalreja:type=Connector,name="Active_MQ"
+2018-10-22 15:23:58,800 [Mule.app.deployer.monitor.1.thread.1] INFO  org.mule.DefaultMuleContext - 
+**********************************************************************
+* Application: maven-project-btalreja                                *
+* OS encoding: \, Mule encoding: UTF-8                               *
+*                                                                    *
+* Agents Running:                                                    *
+*   Batch module default engine                                      *
+*   DevKit Extension Information                                     *
+*   JMX Agent                                                        *
+*   Wrapper Manager                                                  *
+**********************************************************************
+2018-10-22 15:28:03,831 [[maven-project-btalreja].HTTP_Listener_Configuration.worker.01] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default outbound transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2018-10-22 15:28:03,831 [[maven-project-btalreja].HTTP_Listener_Configuration.worker.01] INFO  org.mule.transport.service.DefaultTransportServiceDescriptor - Loading default response transformer: org.mule.transport.jms.transformers.ObjectToJMSMessage
+2018-10-22 15:28:03,831 [[maven-project-btalreja].HTTP_Listener_Configuration.worker.01] WARN  com.mulesoft.mule.transport.jms.EeJmsMessageDispatcher - Starting patched JmsMessageReceiver
+2018-10-22 15:28:03,831 [[maven-project-btalreja].HTTP_Listener_Configuration.worker.01] INFO  org.mule.lifecycle.AbstractLifecycleManager - Initialising: 'Active_MQ.dispatcher.21333722'. Object is: EeJmsMessageDispatcher
+2018-10-22 15:28:03,831 [[maven-project-btalreja].HTTP_Listener_Configuration.worker.01] INFO  org.mule.lifecycle.AbstractLifecycleManager - Starting: 'Active_MQ.dispatcher.21333722'. Object is: EeJmsMessageDispatcher
+2018-10-22 15:28:03,910 [[maven-project-btalreja].logFlights.stage1.02] INFO  org.mule.api.processor.LoggerMessageProcessor - [{DESTINATION=SFO, PRICE=555, ORIGIN=YYZ, ID=0}, {DESTINATION=LAX, PRICE=450, ORIGIN=YYZ, ID=1}, {DESTINATION=SEA, PRICE=777, ORIGIN=SQL, ID=2}, {DESTINATION=SFO, PRICE=999, ORIGIN=SQL, ID=3}]

@@ -15,7 +15,6 @@
 		<mule.version>3.9.1</mule.version>
     	<mule.tools.version>1.7</mule.tools.version>
     	<activemq.version>5.15.6</activemq.version>
-    	<derby.version>10.14.2.0</derby.version>
 	</properties>
 
 	<build>
@@ -155,7 +154,7 @@
    <dependency>
             <groupId>org.apache.derby</groupId>
             <artifactId>derby</artifactId>
-            <version>${derby.version}</version>
+            <version>10.14.2.0</version>
     </dependency>
     <dependency>
             <groupId>org.apache.activemq</groupId>
