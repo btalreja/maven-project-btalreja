@@ -25,10 +25,9 @@ http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/
             <db:parameterized-query><![CDATA[select * from flights]]></db:parameterized-query>
         </db:select>
         <object-to-string-transformer doc:name="Object to String"/>
-        <jms:outbound-endpoint queue="derby.flights" connector-ref="Active_MQ" doc:name="JMS - Send to Q:derby.flight"/>
+        <jms:outbound-endpoint queue="derbyflights" connector-ref="Active_MQ" doc:name="JMS - Send to Q:derbyflight"/>
     </flow>
     <flow name="logFlights">
         <jms:inbound-endpoint queue="derby.flights" connector-ref="Active_MQ" doc:name="JMS  - Recv from Q:derby.flights"/>
-        <logger message="#[payload]" level="INFO" doc:name="Logger"/>
     </flow>
 </mule>

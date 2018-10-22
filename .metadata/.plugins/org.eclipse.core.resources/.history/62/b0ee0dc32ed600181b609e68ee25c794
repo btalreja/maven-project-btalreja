@@ -47,4 +47,3 @@ local.properties
 flows/
 target/
 src/main/api/.repository/ 
-activemq-data

@@ -186,3 +186,107 @@ java.io.FileNotFoundException: m2 repo can't be found
 
 !ENTRY org.mule.tooling.core 2 0 2018-10-22 11:36:03.703
 !MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.mule.tooling.core 4 0 2018-10-22 14:49:42.412
+!MESSAGE There was a problem while creating and error marker...
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 32 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:257)
+	at org.mule.tooling.core.generator.errors.messageflow.MessageFlowEntityError.createMarker(MessageFlowEntityError.java:48)
+	at org.mule.tooling.core.builder.MuleValidationResult.reportInProblemsPane(MuleValidationResult.java:59)
+	at org.mule.tooling.core.builder.TransformerUtils.addErrorsForFlow(TransformerUtils.java:127)
+	at org.mule.tooling.core.builder.TransformerUtils.validateConfigFile(TransformerUtils.java:94)
+	at org.mule.tooling.core.builder.ValidationBuildVisitor$1.call(ValidationBuildVisitor.java:39)
+	at org.mule.tooling.core.builder.ValidationBuildVisitor$1.call(ValidationBuildVisitor.java:1)
+	at org.mule.tooling.utils.SilentRunner.run(SilentRunner.java:25)
+	at org.mule.tooling.core.StudioDesignContextRunner.runSilentWithMuleProject(StudioDesignContextRunner.java:17)
+	at org.mule.tooling.core.builder.ValidationBuildVisitor.validate(ValidationBuildVisitor.java:34)
+	at org.mule.tooling.core.builder.ValidationBuildVisitor.visitFile(ValidationBuildVisitor.java:29)
+	at org.mule.tooling.core.utils.MuleProjectResourceVisitor.visit(MuleProjectResourceVisitor.java:19)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.mule.tooling.core.builder.MuleBuilder$1.run(MuleBuilder.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-10-22 14:49:42.443
+!MESSAGE Marker id 32 not found.
+
+!ENTRY org.mule.tooling.core 4 0 2018-10-22 14:49:42.443
+!MESSAGE There was a problem while creating and error marker...
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Marker id 32 not found.
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:60)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:257)
+	at org.mule.tooling.core.generator.errors.messageflow.MessageFlowEntityError.createMarker(MessageFlowEntityError.java:48)
+	at org.mule.tooling.core.builder.MuleValidationResult.reportInProblemsPane(MuleValidationResult.java:59)
+	at org.mule.tooling.core.builder.TransformerUtils.addErrorsForFlow(TransformerUtils.java:127)
+	at org.mule.tooling.core.builder.TransformerUtils.validateConfigFile(TransformerUtils.java:94)
+	at org.mule.tooling.core.builder.ValidationBuildVisitor$1.call(ValidationBuildVisitor.java:39)
+	at org.mule.tooling.core.builder.ValidationBuildVisitor$1.call(ValidationBuildVisitor.java:1)
+	at org.mule.tooling.utils.SilentRunner.run(SilentRunner.java:25)
+	at org.mule.tooling.core.StudioDesignContextRunner.runSilentWithMuleProject(StudioDesignContextRunner.java:17)
+	at org.mule.tooling.core.builder.ValidationBuildVisitor.validate(ValidationBuildVisitor.java:34)
+	at org.mule.tooling.core.builder.ValidationBuildVisitor.visitFile(ValidationBuildVisitor.java:29)
+	at org.mule.tooling.core.utils.MuleProjectResourceVisitor.visit(MuleProjectResourceVisitor.java:19)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:120)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:84)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:94)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:117)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:105)
+	at org.mule.tooling.core.builder.MuleBuilder$1.run(MuleBuilder.java:197)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2018-10-22 14:49:42.443
+!MESSAGE Marker id 32 not found.
+
+!ENTRY org.mule.tooling.core 1 0 2018-10-22 14:53:38.058
+!MESSAGE While generating classpath found that C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2018-10-22 14:53:38.058
+!MESSAGE While generating classpath found that C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.maven.ui 4 0 2018-10-22 15:07:58.023
+!MESSAGE There was an error running the studio:studio goal on project maven-project-btalreja
+
+!ENTRY org.mule.tooling.maven.ui 4 0 2018-10-22 15:07:58.039
+!MESSAGE There was an error running the studio:studio goal on project maven-project-btalreja
+
+!ENTRY org.mule.tooling.maven.ui 4 0 2018-10-22 15:07:58.039
+!MESSAGE There was an error running the studio:studio goal on project maven-project-btalreja
+
+!ENTRY org.eclipse.jface 2 0 2018-10-22 15:10:42.977
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-22 15:10:42.977
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.mule.tooling.ui.exportImageCommand,Export image,
+		Export image,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27accfd3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.keybindings.contexts.muleStudio,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.mule.tooling.ui.dfl.contribution.commands.turnOnOffPreviewCommand,Turn on/off preview,
+		Turn on/off preview,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1dfa85d4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)

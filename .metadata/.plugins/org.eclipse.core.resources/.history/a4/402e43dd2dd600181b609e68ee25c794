@@ -159,6 +159,11 @@
             <version>5.15.6</version>
         </dependency>
     <dependency>
+            <groupId>org.mycompany</groupId>
+            <artifactId>some-artifact</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    <dependency>
             <groupId>org.apache.activemq</groupId>
             <artifactId>activemq-broker</artifactId>
             <version>5.15.6</version>
