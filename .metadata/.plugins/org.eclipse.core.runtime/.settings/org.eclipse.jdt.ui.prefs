@@ -11,6 +11,8 @@ org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter=true
 org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter=true
 org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter=true
 org.eclipse.jdt.ui.formatterprofiles.version=13
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
 org.eclipse.pde.ui.ExternalPluginLibrariesFilter1=true
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true
