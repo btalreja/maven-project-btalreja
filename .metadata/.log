@@ -1,0 +1,188 @@
+!SESSION 2018-10-22 10:33:23.867 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.mule.tooling.core 1 0 2018-10-22 10:33:55.239
+!MESSAGE Configuring M2_REPO variable with value: C:\Users\btalreja\.m2\repository
+
+!ENTRY org.mule.tooling.core 1 0 2018-10-22 10:33:55.254
+!MESSAGE Configuring M2_REPO variable with value: C:\Users\btalreja\.m2\repository
+
+!ENTRY org.eclipse.ui 4 4 2018-10-22 10:33:56.270
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ContentOutline.
+
+!ENTRY org.eclipse.ui 4 4 2018-10-22 10:33:56.270
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ContentOutline.
+
+!ENTRY org.eclipse.jface 2 0 2018-10-22 10:34:07.189
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-10-22 10:34:07.189
+!MESSAGE A conflict occurred for CTRL+F:
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Find and Replace,
+		Find and replace text,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4a83d61c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.mule.tooling.ui.dfl.contribution.commands.searchCommand,Find/Replace,
+		Find/Replace,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@624268ab,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)
+Binding(CTRL+F,
+	ParameterizedCommand(Command(org.mule.tooling.commands.focusSearchCommand,Focus Search Command,
+		Focus Search in Palette,
+		Category(org.mule.tooling.ui.commandcategory,org.mule.tooling.ui.commandcategory,Category for menu commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@33315925,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.mule.tooling.contexts.mulePropertiesEditor,,,system)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-10-22 10:34:26.967
+!MESSAGE Connection to http://download.eclipse.org/eclipse/updates/4.7/p2.index failed on Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2018-10-22 10:34:26.967
+!MESSAGE Connection to http://download.eclipse.org/eclipse/updates/4.7/p2.index failed on Connection timed out: connect. Retry attempt 0 started
+!STACK 0
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient4.ECFHttpClientProtocolSocketFactory.connectSocket(ECFHttpClientProtocolSocketFactory.java:86)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:179)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:612)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:447)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:884)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.mule.tooling.maven.ui 4 0 2018-10-22 10:57:25.481
+!MESSAGE Can't determine if M2 repo is populated
+!STACK 0
+java.io.FileNotFoundException: m2 repo can't be found
+	at org.mule.tooling.maven.ui.IsRepoPopulatedRule.isPopulatedFor(IsRepoPopulatedRule.java:18)
+	at org.mule.tooling.maven.ui.MavenPluginExecutionRules.shouldPopulateRepoFor(MavenPluginExecutionRules.java:122)
+	at org.mule.tooling.maven.ui.actions.PopulateRepoAction.doExecute(PopulateRepoAction.java:39)
+	at org.mule.tooling.maven.ui.actions.MavenProjectLifecycleAction.checkedExecute(MavenProjectLifecycleAction.java:17)
+	at org.mule.tooling.maven.ui.actions.MavenProjectLifecycleAction.execute(MavenProjectLifecycleAction.java:12)
+	at org.mule.tooling.core.MuleRuntime.runPostImportActions(MuleRuntime.java:331)
+	at org.mule.tooling.core.packageManager.PostImportActionsJob$1$1.call(PostImportActionsJob.java:27)
+	at org.mule.tooling.core.packageManager.PostImportActionsJob$1$1.call(PostImportActionsJob.java:1)
+	at org.mule.tooling.utils.SilentRunner.run(SilentRunner.java:25)
+	at org.mule.tooling.core.StudioDesignContextRunner.runSilentWithMuleProject(StudioDesignContextRunner.java:17)
+	at org.mule.tooling.core.StudioDesignContextRunner.runSilentWithMuleProject(StudioDesignContextRunner.java:37)
+	at org.mule.tooling.core.packageManager.PostImportActionsJob$1.runInWorkspace(PostImportActionsJob.java:23)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.mule.tooling.maven.ui 4 0 2018-10-22 10:57:25.544
+!MESSAGE Can't determine if M2 repo is populated
+!STACK 0
+java.io.FileNotFoundException: m2 repo can't be found
+	at org.mule.tooling.maven.ui.IsRepoPopulatedRule.isPopulatedFor(IsRepoPopulatedRule.java:18)
+	at org.mule.tooling.maven.ui.MavenPluginExecutionRules.shouldPopulateRepoFor(MavenPluginExecutionRules.java:122)
+	at org.mule.tooling.maven.ui.actions.PopulateRepoAction.doExecute(PopulateRepoAction.java:39)
+	at org.mule.tooling.maven.ui.actions.MavenProjectLifecycleAction.checkedExecute(MavenProjectLifecycleAction.java:17)
+	at org.mule.tooling.maven.ui.actions.MavenProjectLifecycleAction.execute(MavenProjectLifecycleAction.java:12)
+	at org.mule.tooling.core.MuleRuntime.runPostImportActions(MuleRuntime.java:331)
+	at org.mule.tooling.core.packageManager.PostImportActionsJob$1$1.call(PostImportActionsJob.java:27)
+	at org.mule.tooling.core.packageManager.PostImportActionsJob$1$1.call(PostImportActionsJob.java:1)
+	at org.mule.tooling.utils.SilentRunner.run(SilentRunner.java:25)
+	at org.mule.tooling.core.StudioDesignContextRunner.runSilentWithMuleProject(StudioDesignContextRunner.java:17)
+	at org.mule.tooling.core.StudioDesignContextRunner.runSilentWithMuleProject(StudioDesignContextRunner.java:37)
+	at org.mule.tooling.core.packageManager.PostImportActionsJob$1.runInWorkspace(PostImportActionsJob.java:23)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.mule.tooling.maven 2 0 2018-10-22 10:57:33.378
+!MESSAGE Skipping installation of jar file: C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\opt\hk2-utils-2.3.0-b05.jar because it seems to have an incorrect pom file embedded (org.jvnet:tiger-types:1.4)
+
+!ENTRY org.mule.tooling.maven 2 0 2018-10-22 10:57:33.379
+!MESSAGE Skipping installation of jar file: C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\opt\hk2-utils-2.3.0-b05.jar because it seems to have an incorrect pom file embedded (org.jvnet:tiger-types:1.4)
+
+!ENTRY org.mule.tooling.maven 2 0 2018-10-22 10:57:34.135
+!MESSAGE Skipping installation of jar file: C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\opt\jython-standalone-2.7.1.jar because it seems to have an incorrect pom file embedded (com.carrotsearch:java-sizeof:0.0.5)
+
+!ENTRY org.mule.tooling.maven 2 0 2018-10-22 10:57:34.136
+!MESSAGE Skipping installation of jar file: C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\opt\jython-standalone-2.7.1.jar because it seems to have an incorrect pom file embedded (com.carrotsearch:java-sizeof:0.0.5)
+
+!ENTRY org.mule.tooling.maven 2 0 2018-10-22 10:57:34.156
+!MESSAGE Skipping installation of jar file: C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\opt\kryo-shaded-4.0.0.jar because it seems to have an incorrect pom file embedded (com.esotericsoftware:kryo-parent:4.0.0)
+
+!ENTRY org.mule.tooling.maven 2 0 2018-10-22 10:57:34.158
+!MESSAGE Skipping installation of jar file: C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\opt\kryo-shaded-4.0.0.jar because it seems to have an incorrect pom file embedded (com.esotericsoftware:kryo-parent:4.0.0)
+
+!ENTRY org.mule.tooling.maven.ui 4 0 2018-10-22 10:58:41.627
+!MESSAGE There was an error running the studio:studio goal on project maven-project-btalreja
+
+!ENTRY org.mule.tooling.maven.ui 4 0 2018-10-22 10:58:41.643
+!MESSAGE There was an error running the studio:studio goal on project maven-project-btalreja
+
+!ENTRY org.mule.tooling.maven.ui 4 0 2018-10-22 10:58:41.643
+!MESSAGE There was an error running the studio:studio goal on project maven-project-btalreja
+
+!ENTRY org.mule.tooling.core 1 0 2018-10-22 11:36:02.546
+!MESSAGE While generating classpath found that C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2018-10-22 11:36:02.546
+!MESSAGE While generating classpath found that C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2018-10-22 11:36:02.546
+!MESSAGE While generating classpath found that C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2018-10-22 11:36:02.546
+!MESSAGE While generating classpath found that C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2018-10-22 11:36:02.546
+!MESSAGE While generating classpath found that C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2018-10-22 11:36:02.562
+!MESSAGE While generating classpath found that C:\MulesoftTraining\AnypointStudio-for-win-64bit-6.5.1\AnypointStudio\plugins\org.mule.tooling.server.3.9.1.ee_6.4.2.201804231909\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 2 0 2018-10-22 11:36:03.703
+!MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.mule.tooling.core 2 0 2018-10-22 11:36:03.703
+!MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null

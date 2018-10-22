@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+maven_preference_default_groupid=com.mulesoft.training
+maven_preference_download_sources=true
+maven_preference_maven_installation_home=C\:\\MulesoftTraining\\Tool\\apache-maven
+maven_preference_override_local_artifacts=true
