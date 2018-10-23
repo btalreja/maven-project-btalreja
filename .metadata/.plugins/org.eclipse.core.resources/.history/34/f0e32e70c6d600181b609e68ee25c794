@@ -15,13 +15,11 @@ public class HelloMavenTest extends FunctionalTestCase {
 
     @Test
     public void mavenFlowReturnsHelloMaven() throws Exception {
-    	System.out.println("Test Case 1:Dynamic Port:"+myPort.getNumber()+"\n\n" );
         runFlowAndExpect("mavenFlow", "Hello Maven");
     }
     
     @Test
     public void retrieveFlightsAddsAppropriateHeader() throws Exception {
-      System.out.println("Test Case 2: Dynamic Port:"+myPort.getNumber()+"\n\n" );
       MuleEvent event = runFlow("retrieveFlights");
       String contentType = event.getMessage().getOutboundProperty("Content-Type");
       assertEquals("application/json", contentType);
